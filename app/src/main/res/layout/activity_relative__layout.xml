@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="322dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="53dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+         />
+
+
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="56dp"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_alignEnd="@+id/nombre"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="117dp"
+        android:src="@drawable/card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="303dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="476dp"
+        android:hint="@string/nombre"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numeroDeTarjeta"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_alignEnd="@+id/nombre"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="2dp"
+        android:autofillHints="no"
+        android:hint="@string/numero"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/numeroDeTarjeta"
+        android:layout_alignTop="@+id/numeroDeTarjeta"
+        android:layout_alignEnd="@+id/numeroDeTarjeta"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="4dp"
+        android:hint="@string/cvv"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/numeroDeTarjeta"
+        android:layout_alignTop="@+id/numeroDeTarjeta"
+        android:layout_alignEnd="@+id/numeroDeTarjeta"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="110dp"
+        android:hint="@string/fecha"
+        android:importantForAutofill="no"
+        android:inputType="datetime"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/numeroDeTarjeta"
+        android:layout_alignTop="@+id/numeroDeTarjeta"
+        android:layout_alignEnd="@+id/numeroDeTarjeta"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/agregar" />
+
+    <Button
+        android:id="@+id/btn_navegar"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_agregar"
+        android:layout_alignTop="@+id/btn_agregar"
+        android:layout_alignEnd="@+id/btn_agregar"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/navegarH" />
+
+
+</RelativeLayout>

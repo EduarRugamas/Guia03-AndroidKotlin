@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Practica03</string>
+
+    //String en espanol
+    <string name="nombre">Nombre</string>
+    <string name="numero">Numero de la tarjeta</string>
+    <string name="fecha">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="material">Actividad Material Desig</string>
+
+    <string name="titulo">Formulario de Tarjeta de Credito</string>
+    <string name="agregar">Agregar</string>
+    <string name="navegar">Actividad LinearLayout</string>
+    <string name="navegarR">Actividad RelativeLayout</string>
+    <string name="navegarH">Actividad ConstraintLayout</string>
+
+    //resource the Material Design
+    <string name="registro">Registrate</string>
+    <string name="registro2">Iniciar Sesion</string>
+    <string name="bienvenida">Bienvenido de vuelta!</string>
+    <string name="bienvenida3">Create una cuenta</string>
+    <string name="mensaje">Vuelva a iniciar sesion en su cuenta</string>
+    <string name="mensaje2">registrate y empieza a comprar</string>
+    <string name="email">Tu correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="recordar">Recordar</string>
+    <string name="olvidar">Olvidar?</string>
+    <string name="sesion">Iniciar Sesion</string>
+    <string name="sesion2">Registarte</string>
+    <string name="sesion3">Continua con Facebook</string>
+
+
+</resources>

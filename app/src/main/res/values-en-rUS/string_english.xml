@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practic03</string>
+    //string in english
+    <string name="nombre">Name</string>
+    <string name="numero">Card number</string>
+    <string name="fecha">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="material">Activity Material Desig</string>
+
+    <string name="titulo">Credit Card Form</string>
+    <string name="agregar">Add</string>
+    <string name="navegar">Activity LinearLayout</string>
+    <string name="navegarR">Activity RelativeLayout</string>
+    <string name="navegarH">Activity ConstraintLayout</string>
+
+    //resource the Material Design
+    <string name="registro">Sign Up</string>
+    <string name="registro2">Log In</string>
+    <string name="bienvenida">welcome back!</string>
+    <string name="bienvenida3">Create account</string>
+    <string name="mensaje">Log back into your account</string>
+    <string name="mensaje2">sing up and star shopping</string>
+    <string name="email">Your email</string>
+    <string name="password">Password</string>
+    <string name="recordar">Remember</string>
+    <string name="olvidar">Forgot?</string>
+    <string name="sesion">Log In</string>
+    <string name="sesion2">Sign Up</string>
+    <string name="sesion3">Continue with Facebook</string>
+
+
+</resources>
